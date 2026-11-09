@@ -1,13 +1,21 @@
 # Golden Vista School Portal
 
-A headmaster's dashboard for a real school — enrolment, fees billed and outstanding arrears, daily attendance, library loans and whole-school communications in one screen, with role-based access for staff.
+A headmaster's dashboard for a real school — enrolment, fees and arrears, attendance, library loans and whole-school communications in one screen.
 
-**Live demo:** [school-vc7g.vercel.app](https://school-vc7g.vercel.app/)
+**[→ View the live site](https://school-vc7g.vercel.app/)**
+
+<img src="screenshot.png" alt="Golden Vista School Portal screenshot" width="100%">
+
+## What this is
+
+Before this, fees and attendance were tracked on paper. The goal was a single dashboard the headmaster and staff could use daily — one screen where the state of the school is visible at a glance.
+
+Staff only see what their role allows, so the bursar gets the fee ledger, the class teacher gets attendance, and nobody has to be trusted with more than they need.
 
 ## What's inside
 
 - Enrolment and student records
-- Fees billed & outstanding arrears tracking
+- Fees billed and outstanding arrears
 - Daily attendance register
 - Library loans
 - Whole-school communications
@@ -15,21 +23,23 @@ A headmaster's dashboard for a real school — enrolment, fees billed and outsta
 
 ## Technology
 
-- HTML, CSS, JavaScript
-- Static front end with data layer connected via API
+- HTML, CSS and JavaScript
+- Static front end with a data layer
 - Deployed on Vercel
 
-## How to run locally
+## Run it locally
+
+No build step, no dependencies — it's plain HTML, CSS and JavaScript.
 
 ```bash
+# from the repository root
 python3 -m http.server 8000
 # then open http://localhost:8000
 ```
 
-## How it was built
+Or just open `index.html` directly in a browser.
 
-Before this, fees and attendance were tracked on paper. The goal was a single dashboard the headmaster and staff could use daily — one screen where the state of the school is visible at a glance, with staff only seeing what their role allows.
 
 ---
 
-*Built by [Benito K Chukwuemeka](https://github.com/Ebubechineka) · [Golden Vista Global](https://ebubechineka.github.io/golden-vista-global/)*
+<sub>Built by **[Benito K Chukwuemeka](https://github.com/Ebubechineka)** · [Golden Vista Global](https://ebubechineka.github.io/golden-vista-global/) — business websites, landing pages and web apps for clients in Nigeria and worldwide.</sub>
